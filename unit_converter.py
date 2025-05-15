@@ -1,0 +1,9 @@
+meters = float(input("Enter length in meters: "))
+feet = meters * 3.28084
+print(f"{meters} meters = {feet} feet")
+kg = float(input("Enter weight in kilograms: "))
+pounds = kg * 2.20462
+print(f"{kg} kg = {pounds} pounds")
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C = {fahrenheit}°F")
